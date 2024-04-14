@@ -1,0 +1,22 @@
+{
+  "name": "vnc-voice",
+  "version": "1.0.0",
+  "description": "vnc premium voice manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "EMERALD",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "discord.js": "^13.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pm2": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
